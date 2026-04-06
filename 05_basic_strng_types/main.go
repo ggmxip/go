@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 )
 
 func main() {
@@ -9,4 +10,6 @@ func main() {
 	LasName := "Ishan"
 	FullName := FirstName + " " + LasName
 	fmt.Println(FullName)
+
+	fmt.Println(strings.ToUpper(FullName))
 }
